@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lecture 5</title>
+        <style>
+        table,th {
+            border: 3.5px solid black ;
+            border-collapse: collapse;
+            text-align: center;
+            width: 600px;
+            height: 100px;
+            font-size: larger;
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Seminar Table</caption>
+            <thead>
+               <tr>
+                <th>Day</th>
+                <th>Seminar</th>
+                <th>Schedule</th>
+                <th colspan="2">Begin</th>
+                <th>End</th>
+                <th>Topic</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 am</td>
+                <td rowspan="2">5:00 pm</td>
+                <td colspan="2">Introduction to XML</td>
+                <td colspan="2">Validity: DTD and Relax NG</td>
+               </tr>
+               <tr>
+                <td>Introduction to XML</td>
+                <td>Validity: DTD and Relax NG</td>
+               </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
